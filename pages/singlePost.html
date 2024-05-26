@@ -7,17 +7,14 @@
       rel="stylesheet"
       href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css"
     />
-    <link rel="stylesheet" href="css/singlePost.css" />
-    <link rel="stylesheet" href="css/header.css" />
-    <link rel="stylesheet" href="css/footer.css" />
-    <link rel="stylesheet" href="css/sidebar.css" />
+    <link rel="stylesheet" href="../css/main.css" />
     <title>Single Post</title>
   </head>
   <body>
     <header class="header">
       <div class="header-content container">
         <div class="header-left">
-          <a href="index.html" class="brand"> <span>Mohammad's</span> Blog </a>
+          <a href="../index.html" class="brand"> <span>Mohammad's</span> Blog </a>
         </div>
         <div class="header-center">
           <input type="text" class="search-input" placeholder="Search..." />
@@ -25,7 +22,7 @@
         </div>
         <div class="header-right">
           <nav class="nav">
-            <a href="index.html" class="nav-link">Home</a>
+            <a href="../index.html" class="nav-link">Home</a>
             <a href="#" class="nav-link">About</a>
             <a href="#" class="nav-link">Projects</a>
           </nav>
@@ -33,7 +30,7 @@
         <a class="link" href="/">
           <img
             class="topImg"
-            src="img.jpg"
+            src="../imgs/img.jpg"
             alt=""
           />
         </a>
@@ -42,11 +39,10 @@
     <div class="single">
       <div class="singlePost">
         <div class="singlePostWrapper">
-          <img
-            class="singlePostImg"
-            src="https://images.pexels.com/photos/1167355/pexels-photo-1167355.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940"
-            alt=""
-          />
+          <figure>
+            <img class="singlePostImg" src="https://images.pexels.com/photos/1167355/pexels-photo-1167355.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940" alt="Trulli" >
+            <figcaption>This is a caption for the image.</figcaption>
+          </figure>
           <h1 class="singlePostTitle">
             Lorem ipsum dolor
             <div class="singlePostEdit">
@@ -177,7 +173,7 @@
                 </li>
                 <li>
                   <a
-                    href="/about"
+                    href="../index.html"
                     target="_blank"
                     rel="noopener noreferrer"
                     class="footer-link"

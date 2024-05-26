@@ -129,9 +129,17 @@ body {
 
 @media (max-width: 640px) {
   .search-input {
-      display: none;
+    display: none;
   }
   .search-icon {
     display: none;
-}
+  }
+  .nav {
+    display: none;
+  }
+  .container {
+    margin: 0 auto;
+    padding: 5px 20px;
+  }
+  
 }

@@ -3,10 +3,10 @@
   padding-top: 48px;
   display: grid;
   grid-template-columns: repeat(1, minmax(0, 1fr));
-  max-width: 1400px;
+  max-width: 1200px;
   margin-left: auto;
   margin-right: auto;
-  gap: 16px;
+  gap: 15px;
   margin-top: 110px;
 }
 
@@ -44,6 +44,7 @@
   justify-content: center;
   align-items: center;
   height: 12rem;
+  color: #1a202c;
 }
 
 .postImg img {
@@ -117,5 +118,11 @@
 @media (min-width: 1024px) {
   .posts {
     grid-template-columns: repeat(3, minmax(0, 1fr));
+  }
+}
+
+@media (max-width: 640px) {
+  .posts {
+    grid-template-columns: repeat(1, minmax(0, 1fr));
   }
 }
